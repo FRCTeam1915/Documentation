@@ -1,0 +1,78 @@
+### 1. Machine Overview
+
+The Boss laser model LS2440 is a high-powered CO2 laser used for prototyping and building robot components in the FIRST Robotics program. It is primarily used for cutting materials such as cardboard, wood (HDF, plywood) and acrylic (plexiglass). The machine supports cutting of organic and non-metal materials, as well as pre-treated metals. It features a 150W laser power and a cutting area of 39.75" x 23.6". The laser head includes auto-focus and air-assist capabilities, and it has a motorized Z-table with a working height of 7 inches.
+
+### 2. Safety Information
+
+The Boss laser is classified as a Class 4 laser, which poses serious eye and skin hazards. Laser safety goggles are typically required, they are not needed when the laser hood is properly down. Users must follow strict safety protocols including proper ventilation and equipment setup. The machine has built-in safety features such as an illuminated LCD panel for control and an inline beam combiner for improved accuracy. Emergency procedures include immediate shutdown and contacting technical support if any malfunction occurs. Training on safe operation is required before using the machine.
+
+### 3. Hello World Section
+
+The most basic operation with the Boss laser is to perform a simple test cut on scrap material to familiarize yourself with the machine's operation. First, ensure the laser hood is properly closed and the machine is powered on. Select a low power setting and make a small test cut on a piece of scrap material. The expected outcome is a clean cut line without burning or charring the material. Before beginning, verify that the machine is properly calibrated and that all safety protocols are followed.
+
+### 4. Proper Use and Care
+
+To properly operate the Boss laser, follow these step-by-step procedures:
+1. Ensure the laser hood is properly closed and the machine is powered on
+2. Load the material to be cut onto the cutting bed
+3. Adjust the Z-height using the control panel for optimal cutting depth
+4. Set appropriate power and speed settings in the software
+5. Position the laser head over the material
+6. Begin the cutting process through the software interface
+7. Monitor the cutting process to ensure proper operation
+8. After completion, turn off the machine and clean the cutting bed
+9. Regularly check and clean the laser lens and mirrors for optimal performance
+
+The machine requires daily cleaning of the cutting bed and weekly maintenance of the laser optics. The recommended maintenance schedule includes monthly calibration checks and quarterly deep cleaning procedures.
+
+### 5. Common Troubleshooting
+
+Common issues users encounter with the Boss laser include:
+- Inaccurate cuts due to improper Z-height adjustment
+- Burn marks or charring on cut materials
+- Error messages on the control panel
+- Laser head not moving properly
+- Uneven cutting edges
+
+For Z-height adjustment problems:
+- The autofocus setting is not particularly accurate and should be avoided
+- Always use the control panel method for precise Z-height adjustment
+- If a red light appears behind the nozzle, tap or move the nozzle until the light disappears, then readjust the Z-height using the control panel
+- Use the Z/U buttons to make precise adjustments
+- Use the ORIGIN button to reset the laser head position if needed
+
+For other common problems:
+- Check that the material is properly secured on the cutting bed
+- Verify that the laser power and speed settings are appropriate for the material
+- Ensure the laser lens is clean and free of debris
+- If issues persist, contact a mentor for assistance
+
+If there is an issue with the machine, the guidance should be to reach out to a mentor for assistance rather than contacting technical support.
+
+### Control Panel Operation
+
+The Boss laser control panel has specific buttons for operation:
+- Z/U buttons to move the laser head up or down
+- Arrow buttons to navigate through menus and adjust settings
+- Press ESC to exit current menu or cancel operation
+- Press ENTER to select options or confirm settings
+- Press START/PAUSE to begin or halt the cutting process
+- Press ORIGIN to return the laser head to its home position
+- Press FRAME to adjust the cutting frame boundaries
+
+### Maintenance Schedule
+
+Regular maintenance procedures include:
+- Daily cleaning of the cutting bed
+- Weekly cleaning of the laser optics
+- Monthly calibration checks
+- Quarterly deep cleaning procedures
+- Annual comprehensive maintenance by qualified personnel
+
+### Emergency Procedures
+
+In case of emergency:
+- Immediately shut down the machine
+- Ensure all users are clear of the machine
+- Contact a mentor for assistance
+- Document the incident for future reference [1]
