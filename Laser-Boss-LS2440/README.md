@@ -1,14 +1,16 @@
 ### 1. Machine Overview
 
-The Boss laser model LS2440 is a high-powered CO2 laser used for prototyping and building robot components in the FIRST Robotics program. It is primarily used for cutting materials such as cardboard, wood (HDF, plywood) and acrylic (plexiglass). The machine supports cutting of organic and non-metal materials, as well as pre-treated metals. It features a 150W laser power and a cutting area of 39.75" x 23.6". The laser head includes auto-focus and air-assist capabilities, and it has a motorized Z-table with a working height of 7 inches.
+The Boss laser model LS2440 is a high-powered CO2 laser used for prototyping and building robot components in the FIRST Robotics program. It is primarily used for cutting materials such as cardboard, wood (HDF, plywood) and acrylic (plexiglass). The machine supports cutting of organic and non-metal materials. It features a 150W laser power and a cutting area of 39.75" x 23.6". The laser head includes auto-focus and air-assist capabilities, and it has a motorized Z-table with a working height of 7 inches.
 
 ### 2. Safety Information
 
-The Boss laser is classified as a Class 4 laser, which poses serious eye and skin hazards. Laser safety goggles are typically required, they are not needed when the laser hood is properly down. Users must follow strict safety protocols including proper ventilation and equipment setup. The machine has built-in safety features such as an illuminated LCD panel for control and an inline beam combiner for improved accuracy. Emergency procedures include immediate shutdown and contacting technical support if any malfunction occurs. Training on safe operation is required before using the machine.
+The Boss laser is classified as a Class 4 laser, which poses serious eye and skin hazards. Laser safety goggles are typically required, they are not needed when the laser hood is properly down. Users must follow strict safety protocols including proper ventilation and equipment setup. The machine has built-in safety features such as an illuminated LCD panel for control and an inline beam combiner for improved accuracy. Emergency procedures include immediate shutdown and contacting a mentor if any malfunction occurs. Training on safe operation is required before using the machine.
 
 ### 3. Hello World Section
 
-The most basic operation with the Boss laser is to perform a simple test cut on scrap material to familiarize yourself with the machine's operation. First, ensure the laser hood is properly closed and the machine is powered on. Select a low power setting and make a small test cut on a piece of scrap material. The expected outcome is a clean cut line without burning or charring the material. Before beginning, verify that the machine is properly calibrated and that all safety protocols are followed.
+The most basic operation with the Boss laser is to perform a simple test cut on scrap material to familiarize yourself with the machine's operation. 
+Place material in laser
+First, ensure the laser hood is properly closed and the machine is powered on. Select a low power setting and make a small test cut on a piece of scrap material. The expected outcome is a clean cut line without burning or charring the material. Before beginning, verify that the machine is properly calibrated and that all safety protocols are followed.
 
 ### 4. Proper Use and Care
 
@@ -33,11 +35,12 @@ Common issues users encounter with the Boss laser include:
 - Error messages on the control panel
 - Laser head not moving properly
 - Uneven cutting edges
+- If flames are coming off the workpiece, make sure the air assist is open all the way
 
 For Z-height adjustment problems:
-- The autofocus setting is not particularly accurate and should be avoided
+- The autofocus feature can be problematic on softer materials (cardboard) and the z height gauge should be used instead
 - Always use the control panel method for precise Z-height adjustment
-- If a red light appears behind the nozzle, tap or move the nozzle until the light disappears, then readjust the Z-height using the control panel
+- If the Z height only goes down, check for a red light behind the nozzle, tap or move the nozzle until the light disappears, then readjust the Z-height using the control panel
 - Use the Z/U buttons to make precise adjustments
 - Use the ORIGIN button to reset the laser head position if needed
 
@@ -46,8 +49,6 @@ For other common problems:
 - Verify that the laser power and speed settings are appropriate for the material
 - Ensure the laser lens is clean and free of debris
 - If issues persist, contact a mentor for assistance
-
-If there is an issue with the machine, the guidance should be to reach out to a mentor for assistance rather than contacting technical support.
 
 ### Control Panel Operation
 
@@ -75,4 +76,4 @@ In case of emergency:
 - Immediately shut down the machine
 - Ensure all users are clear of the machine
 - Contact a mentor for assistance
-- Document the incident for future reference [1]
+- Document the incident for future reference
