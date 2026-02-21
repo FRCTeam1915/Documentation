@@ -41,10 +41,12 @@ To properly operate the Boss laser, follow these step-by-step procedures:
 2. Turn the key located above the control panel to power on the laser. The machine will automatically home, so be prepared for movement.
 
 3. Flip the switch on the front of the white box on the floor to the right of the laser to turn on the cooler.
-⚠ THE COOLER MUST BEEP BEFORE PROCEEDING.
+   
+   ⚠ THE COOLER MUST BEEP BEFORE PROCEEDING.
 
 4. Flip the wall-mounted power switch on the left side of the laser to turn on the air assist and exhaust. This may be turned on later to reduce noise, but it MUST be on before cutting.
-⚠ THE EXHAUST AND AIR ASSIST ARE LOUD. IF YOU DO NOT HEAR THEM, THEY MUST BE FIXED BEFORE RUNNING THE LASER.
+
+   ⚠ THE EXHAUST AND AIR ASSIST ARE LOUD. IF YOU DO NOT HEAR THEM, THEY MUST BE FIXED BEFORE RUNNING THE LASER.
 
 5. Load the material onto the cutting bed.
    - If the material is too small for the slats, place the mesh bed (located to the left of the laser) on top of the cutting bed.
@@ -54,8 +56,10 @@ To properly operate the Boss laser, follow these step-by-step procedures:
      • Remove the front panel by pulling the latches located inside the hollow bar on either side.
 
 6. Adjust the Z-height using the control panel for optimal cutting depth (using either Auto Focus or the leveling guide).
-⚠ THE NOZZLE MUST MOVE FREELY UP AND DOWN BEFORE USING AUTO FOCUS.
-⚠ DO NOT USE AUTO FOCUS ON WEAK MATERIAL (IF A PENCIL CAN EASILY PUNCTURE IT). THE NOZZLE CAN AND WILL PUSH THROUGH THE MATERIAL.
+
+   ⚠ THE NOZZLE MUST MOVE FREELY UP AND DOWN BEFORE USING AUTO FOCUS.
+
+   ⚠ DO NOT USE AUTO FOCUS ON WEAK MATERIAL (IF A PENCIL CAN EASILY PUNCTURE IT). THE NOZZLE CAN AND WILL PUSH THROUGH THE MATERIAL.
    - The leveling guide is a small acrylic “L” that fits over the bottom lip of the nozzle and should just touch the material surface.
 
 7. Launch LightBurn on a Lenovo and connect it to the laser using the blue USB cord.
@@ -75,19 +79,22 @@ To properly operate the Boss laser, follow these step-by-step procedures:
 12. Set appropriate power and speed settings in LightBurn.
     a. Open the Library window and select your material from the dropdown.
     b. Select the cut thickness.
-     c. Select the correct cut layer on the right side and click Assign.
-⚠ DO NOT CLICK “LINK.” THIS WILL OVERWRITE THE MATERIAL LIBRARY SETTINGS.
+    c. Select the correct cut layer on the right side and click Assign.
+
+    ⚠ DO NOT CLICK “LINK.” THIS WILL OVERWRITE THE MATERIAL LIBRARY SETTINGS.
 
 13. Position the laser head over the material.
     -In the bottom right of the Cut window, choose Origin, Current Position, or Absolute Coords.
      a. Origin will start the cut from the last saved origin, not the current head position.
          - This can be updated by moving the laser and pressing the Origin button.
+
      ⚠ IF RUNNING FROM THE CONTROL PANEL, IT WILL ALWAYS BE IN ORIGIN MODE.
 
      b. Current Position will start the cut based on the current head position.
         - The 3×3 grid in the Cut window determines where the file will be placed relative to the head position.
         - For example, if the top-left circle is selected, the laser will align the top-right of the file with the head location.
-    ⚠ WHEN USING CURRENT POSITION, IF PARTS ARE REMOVED FROM THE CUT FILE, THE LASER WILL CUT BASED ON THE CURRENT FILE SIZE, NOT THE PREVIOUS ONE.
+
+       ⚠ WHEN USING CURRENT POSITION, IF PARTS ARE REMOVED FROM THE CUT FILE, THE LASER WILL CUT BASED ON THE CURRENT FILE SIZE, NOT THE PREVIOUS ONE.
 
      c. Absolute Coords will cut the file based on its position in LightBurn relative to the machine’s coordinate system.
 
@@ -95,14 +102,17 @@ To properly operate the Boss laser, follow these step-by-step procedures:
     - Bounding Box creates a rectangle that fully encloses the cut file and traces it. (This is the only option if working from the control panel.)
 
     - Rubber Band traces the outermost path of the design and is more precise but will not show internal geometry.
-⚠ DO NOT HOLD SHIFT WHILE PRESSING FRAME. THIS WILL CAUSE THE LASER TO FIRE AND CUT THE FRAME INSTEAD OF TRACING IT.
+
+    ⚠ DO NOT HOLD SHIFT WHILE PRESSING FRAME. THIS WILL CAUSE THE LASER TO FIRE AND CUT THE FRAME INSTEAD OF TRACING IT.
 
 15. Begin the cutting process through either LightBurn or the control panel.
     
 16. Monitor the cutting process to ensure proper operation
     - Small flames may appear directly under the cutting head.
-⚠ NEVER LEAVE THE LASER UNATTENDED WHILE CUTTING. (This has been done before and it caused signifigant damage and signifigant down time)  
-⚠ IF A FIRE BEGINS TO GROW, DOES NOT GO OUT AFTER THE CUTTING HEAD HAS MOVED, OR STARTS TO SPREAD:
+
+    ⚠ NEVER LEAVE THE LASER UNATTENDED WHILE CUTTING. 
+
+    ⚠ IF A FIRE BEGINS TO GROW, DOES NOT GO OUT AFTER THE CUTTING HEAD HAS MOVED, OR STARTS TO SPREAD:
 STOP THE MACHINE IMMEDIATELY USING STOP, PAUSE, OR THE EMERGENCY STOP (E-STOP).
 EXTINGUISH THE FIRE USING THE SAND BUCKET LOCATED ON THE GROUND TO THE RIGHT OF THE LASER CUTTER.
 FAILURE TO ACT IMMEDIATELY MAY CAUSE SIGNIFICANT DAMAGE TO THE MACHINE AND ITS LENSES.
