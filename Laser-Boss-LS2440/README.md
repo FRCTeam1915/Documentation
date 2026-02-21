@@ -35,72 +35,117 @@ Banned Materials (These materials either wont cut or will produce toxic fumes)
 ### 4. Proper Use
 
 To properly operate the Boss laser, follow these step-by-step procedures:
-1. Ensure the bed is empty and the laser nozzle with not hit anything if it moves completly to the far right
-2. turn the key located above the control panel to turn on the laser (it will automatically home so be ready for it to move)
-3. Flip the switch located on the front of the white box on the floor to the right of the laser to turn on the cooler
-4. Flip the switch on the power switch mounted to the wall on the left side of the laser to turn on the air assist and exaust (note this can be turned on later to avoid noise but MUST BE TURNED ON BEFORE CUTTING)
-5. Load the material to be cut onto the cutting bed
-   - if the material is to small for the slats a mesh bed is located to the left of the laser which can be put ontop.
-   - If the material is too big to fit in the laser the red pannels surrounding the laser can be either opened or removed (The pannels on the back and sides are opened through a latch in the middle (the latch should be closed with the door open to allow material to lay flat) the pannel in the front can be removed by pulling the latches located inside of the hollow bar on either side)
-6. Adjust the Z-height using the control panel for optimal cutting depth (This can be done through either using the auto focus or the leveling guide)
-   - THE NOZZLE MUST MOVE FREELY UP AND DOWN BEFORE USING THE AUTOFOCUS
-   - The leveling guide is a small acrylic L that fits over the bottom lip on the nozzle and should touch the material
-7. launch lightburn on a lenovo and connect it to the laser through the blue usb cord
-8. Export the file you want to cut as a DXF by creating a drawing in the CAD software (Fusion 360)
-9. Optional but recomended:
-    a. Lauch Corel on the same lenovo and import the DXF into it (CTRL + I)
-    b. If the DXF imports as a group (the lines and curves are under a dropdown menu in the objects menu) ungroup them by right clicking and pressing ungroup from the droupdown menu (Might be CTRL + K)
-    c. select all objects on the screen and combine them (CTRL + L)
-    d. Make sure nothing is selected and export the file (CTRL + E) as a .AI
-10. Import the DXF or .AI file to Lightburn (if unexpected lines apear follow the previous step)
-11. Ensure all lines that will have the same operation performed on them (Cut/Engrave) arae the same color (the color can be changed by slecting lines and choosing a color from the botom task bar)
-12. Set appropriate power and speed settings in Lightburn
-   - Open the library window in lightburn and select the drop down for your material
-   - Select the cut thickness from the drop down
-   - on the right side select the cut layer and then click assign (DO NOT CLICK LINK THAT WILL UPDATE THE LIBRARY WITH YOUR SETTINGS)
-13. Position the laser head over the material
-   - On the bottom right of the cut window there is a drop down where you can choose Origin, current position, or absolute coords
-     a. Origin will always start the cut from the last saved origin not the current position (this can be updated by moving the laser and pressing the origin button) (IF RUNNING FROM CONTROL PANNEL IT WILL ALWAYS BE IN THIS MODE)
-     b. current position will start the cut based on the current position of the head
-        - on the bottom right of the cut window there is a 3 x 3 grid of circles which determine where the cut file will be placed in relation to its current position (ie if the top left circle is selected the laser will place the cut file so that the top right of whatever is cutting lines up with the laser) (NOTE WHEN USING CURRENT POSITION IF PARTS ARE REMOVED FROM THE CUTFILE THE LASER WILL CUT BASED ON THE CURRENT SIZE OF THE CUT FILE NOT THE PREVIOUS ONE)
-     C.  Absolute coords will cut file based on the positioning in light burn and both the origin and current position of the head
-14. Frame the material with either the bouding box or rubberband fram
-    - The bounding box frame will create a rectangle that completly fits the cut file and trace that on the laser (this is the only option if working from the control panel)
-    - The rubber band frame will trace a path that could be found by putting a rubber band around the part (This will provide a more accurate frame but will still not show inside geometry)
-    - DO NOT HOLD SHIFT WHILE PRESSING THE FRAME BUTTON THIS WILL CAUSE THE LASER TO TURN ON AND CUT THE FRAME INSTEAD OF TRACING IT
-14. Begin the cutting process through eithe lightburn or the control pannel
-15. Monitor the cutting process to ensure proper operation
-    - Small fires may start directly under the head
-    - IF FIRES GROW, DO NOT STOP AFTER THE CUTTING HEAD HAS MOVED, OR SPREAD STOP IMMEDIETLY(press the stop, pause, or estop button) AND EXTINGUISH USING THE SAND BUCKED ON THE GROUND TO THE RIGHT OF THE LASER CUTTER FAILURE TO DO SO WILL CAUSE SIGNIFIGANT DAMAGE TO THE MACHINE AND ITS LENSES
-16. After completion, do not move the part  and lightly touch if to see if it moves
-17. if the part moves remove and either start another cut or turn it off (opposite of steps 2-4)
-18. if the part does not move return to step 14
+
+1. Ensure the bed is empty and the laser nozzle will not hit anything if it moves completely to the far right.
+
+2. Turn the key located above the control panel to power on the laser. The machine will automatically home, so be prepared for movement.
+
+3. Flip the switch on the front of the white box on the floor to the right of the laser to turn on the cooler.
+⚠ THE COOLER MUST BEEP BEFORE PROCEEDING.
+
+4. Flip the wall-mounted power switch on the left side of the laser to turn on the air assist and exhaust. This may be turned on later to reduce noise, but it MUST be on before cutting.
+⚠ THE EXHAUST AND AIR ASSIST ARE LOUD. IF YOU DO NOT HEAR THEM, THEY MUST BE FIXED BEFORE RUNNING THE LASER.
+
+5. Load the material onto the cutting bed.
+   - If the material is too small for the slats, place the mesh bed (located to the left of the laser) on top of the cutting bed.
+   - If the material is too large to fit:
+     • Open the back and side panels using the center latch.
+     • Keep the latch closed while the door is open so the material can lay flat.
+     • Remove the front panel by pulling the latches located inside the hollow bar on either side.
+
+6. Adjust the Z-height using the control panel for optimal cutting depth (using either Auto Focus or the leveling guide).
+⚠ THE NOZZLE MUST MOVE FREELY UP AND DOWN BEFORE USING AUTO FOCUS.
+⚠ DO NOT USE AUTO FOCUS ON WEAK MATERIAL (IF A PENCIL CAN EASILY PUNCTURE IT). THE NOZZLE CAN AND WILL PUSH THROUGH THE MATERIAL.
+   - The leveling guide is a small acrylic “L” that fits over the bottom lip of the nozzle and should just touch the material surface.
+
+7. Launch LightBurn on a Lenovo and connect it to the laser using the blue USB cord.
+
+8. Export the file to be cut as a DXF from your CAD software (Fusion 360).
+
+9. Optional but recommended:
+   a. Launch Corel on the same Lenovo and import the DXF (Ctrl + I).
+   b. If the DXF imports as a group (objects appear under a dropdown in the Objects menu), right-click and select Ungroup (Ctrl + K).
+   c. Select all objects and combine them (Ctrl + L).
+   d. Ensure nothing is selected, then export as an .AI file (Ctrl + E).
+
+10. Import the DXF or .AI file into LightBurn. If unexpected lines appear, repeat Step 9.
+
+11. Ensure all lines that will have the same operation (cut or engrave) are the same color. Colors can be changed by selecting lines and choosing a color from the bottom toolbar.
+
+12. Set appropriate power and speed settings in LightBurn.
+    a. Open the Library window and select your material from the dropdown.
+    b. Select the cut thickness.
+     c. Select the correct cut layer on the right side and click Assign.
+⚠ DO NOT CLICK “LINK.” THIS WILL OVERWRITE THE MATERIAL LIBRARY SETTINGS.
+
+13. Position the laser head over the material.
+    -In the bottom right of the Cut window, choose Origin, Current Position, or Absolute Coords.
+     a. Origin will start the cut from the last saved origin, not the current head position.
+         - This can be updated by moving the laser and pressing the Origin button.
+     ⚠ IF RUNNING FROM THE CONTROL PANEL, IT WILL ALWAYS BE IN ORIGIN MODE.
+
+     b. Current Position will start the cut based on the current head position.
+        - The 3×3 grid in the Cut window determines where the file will be placed relative to the head position.
+        - For example, if the top-left circle is selected, the laser will align the top-right of the file with the head location.
+    ⚠ WHEN USING CURRENT POSITION, IF PARTS ARE REMOVED FROM THE CUT FILE, THE LASER WILL CUT BASED ON THE CURRENT FILE SIZE, NOT THE PREVIOUS ONE.
+
+     c. Absolute Coords will cut the file based on its position in LightBurn relative to the machine’s coordinate system.
+
+14. Frame the material using either Bounding Box or Rubber Band frame.
+    - Bounding Box creates a rectangle that fully encloses the cut file and traces it. (This is the only option if working from the control panel.)
+
+    - Rubber Band traces the outermost path of the design and is more precise but will not show internal geometry.
+⚠ DO NOT HOLD SHIFT WHILE PRESSING FRAME. THIS WILL CAUSE THE LASER TO FIRE AND CUT THE FRAME INSTEAD OF TRACING IT.
+
+15. Begin the cutting process through either LightBurn or the control panel.
+    
+16. Monitor the cutting process to ensure proper operation
+    - Small flames may appear directly under the cutting head.
+⚠ NEVER LEAVE THE LASER UNATTENDED WHILE CUTTING. (This has been done before and it caused signifigant damage and signifigant down time)  
+⚠ IF A FIRE BEGINS TO GROW, DOES NOT GO OUT AFTER THE CUTTING HEAD HAS MOVED, OR STARTS TO SPREAD:
+STOP THE MACHINE IMMEDIATELY USING STOP, PAUSE, OR THE EMERGENCY STOP (E-STOP).
+EXTINGUISH THE FIRE USING THE SAND BUCKET LOCATED ON THE GROUND TO THE RIGHT OF THE LASER CUTTER.
+FAILURE TO ACT IMMEDIATELY MAY CAUSE SIGNIFICANT DAMAGE TO THE MACHINE AND ITS LENSES.
+
+17. After completion, do not reposition the material. Lightly press on the part to check if it has fully cut through.
+
+18. If the part moves freely, remove it and either begin another cut or shut down the machine (reverse Steps 2–4).
+
+19. If the part does not move freely, repeat the cutting step.
 
 
 The machine requires daily cleaning of the cutting bed and weekly maintenance of the laser optics. The recommended maintenance schedule includes monthly calibration checks and quarterly deep cleaning procedures.
 
 ### 5. Common Troubleshooting
 
-Common issues users encounter with the Boss laser include:
-- Inaccurate cuts due to improper Z-height adjustment
-- Burn marks or charring on cut materials
-- Error messages on the control panel
-- Laser head not moving properly
-- Uneven cutting edges
-- If flames are coming off the workpiece, make sure the air assist is open all the way
+CHECK AFTER EACH STEP., IF THE ISSUE PERSISTS, CONTINUE TO THE NEXT STEP
+IF PROBLEMS OCCURRED THAT WERE NOT COVERED IN THIS SECTION, CHECK THE MANUAL LOCATED IN THE TOOLBOX INSIDE OF THE CABINET NEXT TO THE LASER
 
-For Z-height adjustment problems:
-- The autofocus feature can be problematic on softer materials (cardboard) and the z height gauge should be used instead
-- Always use the control panel method for precise Z-height adjustment
-- If the Z height only goes down, check for a red light behind the nozzle, fully lift the nozzle and then let go, then check if the light has dissapeared (if it hasnt repat until it does)
-- Use the Z/U buttons to make precise adjustments
-- Use the ORIGIN button to reset the laser head position if needed
+Bed wont go up and will only go down:
+- If the Z height only goes down, check for a red light behind the nozzle, fully lift the nozzle and then let go, then check if the light has disappeared (if it hasn't repeat until it does)
 
-For other common problems:
-- Check that the material is properly secured on the cutting bed
-- Verify that the laser power and speed settings are appropriate for the material
-- Ensure the laser lens is clean and free of debris
-- If issues persist, contact a mentor for assistance
+The laser is cutting extremely wide:
+- Ensure the z offset is correct by following step 6 of proper use
+- Fully lift the nozzle and then let go
+- Follow the alignment instructions https://www.youtube.com/watch?v=RbKaCOxGxaA. The tools required are located inside the cabinet next to the laser
+
+Flames are coming off the workpiece:
+- Ensure that the powerstrip controling the ventilation is powered on
+- Ensure that the air assist is plugged in to the ventilation power strip (the air assist is a small brass pump located on the ground behind the laser)
+
+The laser is not cutting in the expected position:
+- Repeat step 13
+
+X/Y slop error (The attempted operation will extend outside of the bed):
+- Move, rotate, scale, or segment the cut so that it is completely within the bounds of the bed
+
+The laser cutter is not cutting all the way through:
+- If the laser cutter was recently powered on, it will perform worse than after repeated cuts, as the laser needs time to fully warm up
+- Ensure the proper cut settings were used (Step 12)
+
+
+
+
 
 ### Control Panel Operation
 
