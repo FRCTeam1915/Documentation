@@ -1,2 +1,1 @@
-# Documentation
-General Documentation
+https://github.com/FRCTeam1915/Documentation/wiki
