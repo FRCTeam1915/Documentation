@@ -1,3 +1,8 @@
+MOVED TO WIKI  Do not edit this document
+
+https://github.com/FRCTeam1915/Documentation/wiki/Laser-Boss-LS2440
+
+
 ### 1. Machine Overview
 
 The Boss laser model LS2440 is a high-powered CO2 laser used for prototyping and building robot components in the FIRST Robotics program. It is primarily used for cutting materials such as cardboard, wood (HDF, plywood) and acrylic (plexiglass). The machine supports cutting of organic and non-metal materials. It features a 150W laser power and a cutting area of 39.75" x 23.6". The laser head includes auto-focus and air-assist capabilities, and it has a motorized Z-table with a working height of 7 inches.
